@@ -3,7 +3,7 @@
 
 A Django library for capturing and replaying failed HTTP requests locally.
 
-[PyPI](https://test.pypi.org/project/django-request-replay/0.1.1/) 
+[PyPI](https://pypi.org/project/django-request-replay/0.1.1/) 
 
 Replay failed Django HTTP requests locally.
 
