@@ -1,4 +1,9 @@
 # django-request-replay
+# django-request-replay
+
+A Django library for capturing and replaying failed HTTP requests locally.
+
+[PyPI](https://test.pypi.org/project/django-request-replay/0.1.1/) 
 
 Replay failed Django HTTP requests locally.
 
@@ -169,15 +174,6 @@ django-request-replay/
 ├── pyproject.toml
 ├── README.md
 └── .gitignore
-Roadmap
-[ ] Configurable redaction rules
-[ ] Request retention and cleanup command
-[ ] Better query parameter preservation
-[ ] Structured logging
-[ ] GitHub Actions CI
-[ ] PyPI release
-[ ] More Django version compatibility
-[ ] Response comparison
-[ ] Advanced replay options
+
 License
 MIT
