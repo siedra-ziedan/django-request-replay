@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "django-request-replay"
+version = "0.1.1"
+description = "Replay failed Django HTTP requests locally"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+
+authors = [
+    { name = "Sedra Zeidan" }
+]
+
+dependencies = [
+    "Django>=6.1,<7.0",
+    "requests>=2.32,<3.0",
+]
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Framework :: Django",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools.packages.find]
+include = ["django_request_replay*"]
